@@ -8,6 +8,7 @@ export class FakeDataService {
     const generatedData = {};
     for (const paramName in model) {
       const paramType = model[paramName];
+      console.log(paramName, paramType);
       generatedData[paramName] = this.handleType(paramType);
     }
     return generatedData;
