@@ -1,6 +1,5 @@
 import { faker } from '@faker-js/faker';
-import { ParamType } from 'enums/param-type.enum';
-//import { ParamType } from 'src/enums/param-type.enum';
+import { ParamType } from 'src/enums/param-type.enum';
 
 export class ParamTypeHandler {
   static handleType(type: string) {

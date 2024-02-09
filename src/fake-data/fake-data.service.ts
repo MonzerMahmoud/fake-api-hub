@@ -1,6 +1,6 @@
 import { faker } from '@faker-js/faker';
 import { Injectable } from '@nestjs/common';
-import { ParamType } from 'enums/param-type.enum';
+import { ParamType } from '../enums/param-type.enum';
 
 @Injectable()
 export class FakeDataService {
